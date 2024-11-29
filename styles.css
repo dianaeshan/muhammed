@@ -1,0 +1,48 @@
+body {
+    background-color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+h1 {
+    color: bisque;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: cursive;
+   
+}
+h2 {
+    color: rgb(99, 96, 170);
+}
+
+.dark {
+    color:rgb(87,54,56);
+    border: 4px 
+    
+}
+.join {
+    background-color: azure;
+    border: none;
+}
+.subscribe-button {
+    background-color: rgb(123, 14, 14);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 1s;
+
+    margin-right: 8px;
+}
+.subscribe-button:hover{
+    background-color: green;
+}
+.subscribe-button:active{
+    background-color: rgb(22, 22, 232);
+}
+
